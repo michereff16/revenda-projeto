@@ -1,4 +1,4 @@
-
+<!-- Site inspiração https://nickmultimarcas.com.br/ -->
 
 <h1 align="center">Projeto site de revenda de veículos utilizando HTML e CSS.
 </h1>
@@ -15,11 +15,11 @@
 
 
 ### Features
-- [ ] Incluir header
-   - [ ] Logo
-   - [ ] Menu
+- [x] Incluir header
+   - [x] Logo
+   - [x] Menu
 - [ ] Incluir hero-img
-- [ ] Incluir marcas disponíveis
+- [x] Incluir marcas disponíveis
 - [ ] Incluir veículos novos a venda
    - [ ] Fazer pelo menos 3 páginas de veículos diferentes.
 - [ ] Incluir relato de clientes satisfeitos

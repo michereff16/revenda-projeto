@@ -16,10 +16,10 @@
 
 ### Features
 - [x] Incluir header
-   - [ ] Logo
-   - [ ] Menu
+   - [x] Logo
+   - [x] Menu
 - [ ] Incluir hero-img
-- [ ] Incluir marcas disponíveis
+- [x] Incluir marcas disponíveis
 - [ ] Incluir veículos novos a venda
    - [ ] Fazer pelo menos 3 páginas de veículos diferentes.
 - [ ] Incluir relato de clientes satisfeitos

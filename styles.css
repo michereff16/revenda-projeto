@@ -1,3 +1,28 @@
-.carro {
-    background-color: aqua;
+* {
+    margin: 0;
+    padding: 0;
+    background-color: azure;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#logo {
+    width: 300px;
+    height: auto;
+}
+
+.zap {
+    width: 50px;
+    height: auto;
+}
+
+#hero-img {
+
 }

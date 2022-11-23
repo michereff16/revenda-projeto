@@ -20,8 +20,8 @@
    - [x] Menu
 - [ ] Incluir hero-img
 - [x] Incluir marcas disponíveis
-- [ ] Incluir veículos novos a venda
+- [x] Incluir veículos novos a venda
    - [ ] Fazer pelo menos 3 páginas de veículos diferentes.
-- [ ] Incluir relato de clientes satisfeitos
-- [ ] Incluir footer da página
-   - [ ] Incluir endereço, midias sociais e contatos.
+- [x] Incluir relato de clientes satisfeitos
+- [x] Incluir footer da página
+   - [x] Incluir endereço, midias sociais e contatos.

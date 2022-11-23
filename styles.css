@@ -33,7 +33,8 @@ header {
 .grid {
     width: 50%;
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    align-items: center;
     margin-top: 50px;
 }
 

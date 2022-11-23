@@ -68,6 +68,7 @@ a.marca-link {
     grid-template-columns: repeat(3, 1fr);
     row-gap: 20px;
     column-gap: 40px;
+    
 }
 
 .anuncio {
@@ -96,16 +97,103 @@ a.marca-link {
     background-image: url('https://seminovos.unidas.com.br/storage/veiculos/655/146155/volkswagen-polo-prata-2020-1-0-mpi-total-flex-manual-b53be422ded3fd20ad45b037af4d299b.jpg');
     background-position: center;
     background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.493) 1px 1px 6px;
 }
 
 .banner-2 {
     background-image: url('https://seminovos.unidas.com.br/storage/veiculos/651/150000/toyota-corolla-preto-2021-2-0-vvt-ie-flex-xei-direct-shift-c59f26a033cabde3e4a6276bc81ea228.jpg');
     background-position: center;
     background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.493) 1px 1px 6px;
 }
 
 .banner-3 {
     background-image: url('https://seminovos.unidas.com.br/storage/veiculos/813/149391/fiat-cronos-preto-2021-1-3-firefly-flex-manual-b3bbb0a50e3bfcbf7d4d98d410bab35b.jpg');
     background-position: center;
     background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.493) 1px 1px 6px;
 }
+
+body h1 {
+    display: flex;
+    justify-content: center;
+    margin: 5rem 0 5rem 0;
+    font-family: 'Roboto';
+    font-size: 40px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 980px;
+    margin: 0 auto;
+    grid-gap: 40px;
+}
+
+.cardc {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 35px 40px;
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.24);
+}
+
+.cardc .user {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    background-color: white;
+}
+
+.card h3 {
+    font-family: 'Roboto';
+    margin-bottom: 5px;
+    background-color: white;
+}
+
+h3 {
+    background-color: white;
+}
+
+.star {
+    width: 20px;
+}
+
+.stars {
+    background-color: white;
+}
+
+p {
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 18px;
+    background-color: white;
+}
+
+footer {
+    height: 300px;
+    padding-top: 250px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+span {
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+

@@ -6,6 +6,7 @@
     background-color: white;
     list-style: none;
     text-decoration: none;
+    font-family: 'Roboto', sans-serif;
 }
 
 header {
@@ -31,20 +32,13 @@ header {
 }
 
 .grid {
-    width: 50%;
+    width: 100%;
     display: flex;
     flex-direction: row;
+    justify-content: center;
     align-items: center;
     margin-top: 50px;
-}
-
-.marcas {
-    width: 90%;
-    display: grid;
-    align-items: center;
-    grid-template-columns: repeat(3, 1fr);
-    row-gap: 20px;
-    column-gap: 40px;
+    gap: 60px;
 }
 
 img.img-load {
@@ -52,8 +46,10 @@ img.img-load {
     width: auto;
 }
 
-a.marca-link {
+.marca-link {
     display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .anuncios {
